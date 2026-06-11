@@ -26,6 +26,24 @@ const jogos = {
         { id: 'g23', fase: 'Grupo L', data: '17/06/2026', time1: 'Inglaterra', time2: 'Croácia', grupo: 'L' },
         { id: 'g24', fase: 'Grupo L', data: '17/06/2026', time1: 'Gana', time2: 'Panamá', grupo: 'L' }
     ],
+    dezesseisAvos: [
+        { id: '16a1', fase: '16 Avos', data: '28/06/2026', time1: '1º Grupo A', time2: '3º melhor (Grupo C/D/E)' },
+        { id: '16a2', fase: '16 Avos', data: '28/06/2026', time1: '2º Grupo B', time2: '2º Grupo F' },
+        { id: '16a3', fase: '16 Avos', data: '29/06/2026', time1: '1º Grupo C', time2: '3º melhor (Grupo A/B/F/G)' },
+        { id: '16a4', fase: '16 Avos', data: '29/06/2026', time1: '1º Grupo D', time2: '3º melhor (Grupo B/E/H/I)' },
+        { id: '16a5', fase: '16 Avos', data: '29/06/2026', time1: '2º Grupo A', time2: '2º Grupo C' },
+        { id: '16a6', fase: '16 Avos', data: '30/06/2026', time1: '1º Grupo E', time2: '3º melhor (Grupo C/D/F/G)' },
+        { id: '16a7', fase: '16 Avos', data: '30/06/2026', time1: '1º Grupo F', time2: '2º Grupo H' },
+        { id: '16a8', fase: '16 Avos', data: '30/06/2026', time1: '2º Grupo D', time2: '2º Grupo G' },
+        { id: '16a9', fase: '16 Avos', data: '01/07/2026', time1: '1º Grupo G', time2: '3º melhor (Grupo A/D/E/J)' },
+        { id: '16a10', fase: '16 Avos', data: '01/07/2026', time1: '1º Grupo H', time2: '2º Grupo I' },
+        { id: '16a11', fase: '16 Avos', data: '01/07/2026', time1: '2º Grupo E', time2: '2º Grupo J' },
+        { id: '16a12', fase: '16 Avos', data: '02/07/2026', time1: '1º Grupo I', time2: '3º melhor (Grupo E/F/G/H)' },
+        { id: '16a13', fase: '16 Avos', data: '02/07/2026', time1: '1º Grupo J', time2: '2º Grupo K' },
+        { id: '16a14', fase: '16 Avos', data: '02/07/2026', time1: '2º Grupo L', time2: '3º melhor (Grupo I/J/K)' },
+        { id: '16a15', fase: '16 Avos', data: '03/07/2026', time1: '1º Grupo K', time2: '2º Grupo A' },
+        { id: '16a16', fase: '16 Avos', data: '03/07/2026', time1: '1º Grupo L', time2: '3º melhor (Grupo A/B/C/D)' }
+    ],
     oitavas: [
         { id: 'o1', fase: 'Oitavas', data: '28/06/2026', time1: '2º Grupo A', time2: '2º Grupo B' },
         { id: 'o2', fase: 'Oitavas', data: '29/06/2026', time1: '1º Grupo C', time2: '2º Grupo F' },
@@ -55,10 +73,11 @@ const jogos = {
 // Renderizar todos os jogos na tela
 function renderizarJogos() {
     renderizarGrupos();
-    renderizarMataMata('oitavas-container', jogos.oitavas);
-    renderizarMataMata('quartas-container', jogos.quartas);
-    renderizarMataMata('semis-container', jogos.semifinais);
-    renderizarMataMata('final-container', jogos.final);
+//    renderizarMataMata('dezesseisAvos-container', jogos.dezesseisAvos);
+//    renderizarMataMata('oitavas-container', jogos.oitavas);
+//    renderizarMataMata('quartas-container', jogos.quartas);
+//    renderizarMataMata('semis-container', jogos.semifinais);
+//    renderizarMataMata('final-container', jogos.final);
 }
 
 function renderizarGrupos() {
