@@ -172,7 +172,7 @@ function enviarPorEmail(csv) {
     const corpo = `Segue em anexo os palpites do participante ${nome} (${email}).\n\nCopie o CSV abaixo e cole em um arquivo .csv:\n\n${csv}`;
     
     // Opção 1: Abrir cliente de e-mail
-    window.location.href = `mailto:seu-email@exemplo.com?subject=${encodeURIComponent(assunto)}&body=${encodeURIComponent(corpo)}`;
+    window.location.href = `mailto:vica.escorcio@gmail.com?subject=${encodeURIComponent(assunto)}&body=${encodeURIComponent(corpo)}`;
     
     // Opção 2: Mostrar CSV para copiar manualmente (fallback)
     setTimeout(() => {
